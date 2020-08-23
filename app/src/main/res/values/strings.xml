@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MeDebe</string>
+    <string name="yourContact">Your contacts</string>
+    <string name="addContactButton">Add contact</string>
+    <string name="debtView">Debt: </string>
+    <string name="addContact">Add Contact</string>
+    <string name="contactsName">Contact name</string>
+    <string name="deleteContact">Delete contact</string>
+    <string name="addMovement">Add movement</string>
+    <string name="createContact">Create Contact</string>
+    <string name="typeAsk">Type: </string>
+    <string name="hintNum">Amount</string>
+    <string name="hintName">Contact name</string>
+    <string name="giveMov">Give</string>
+    <string name="receiveMov">Receive</string>
+</resources>

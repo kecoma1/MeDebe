@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactActivity">
+
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/totalDebtText"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="22dp"
+        android:text="TextView" />
+
+    <ListView
+        android:id="@+id/movementsList"
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:layout_below="@+id/totalDebtText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp" />
+
+    <Button
+        android:id="@+id/addMovementButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movementsList"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="47dp"
+        android:text="@string/addMovement" />
+
+    <Button
+        android:id="@+id/deleteContactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movementsList"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/deleteContact" />
+</RelativeLayout>
